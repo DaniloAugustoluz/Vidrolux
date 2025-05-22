@@ -89,8 +89,8 @@ body{
 }
 
 .item__2 img{
-    width: 130px;
-    height: 130px;
+    width: 160px;
+    height: 160px;
     border-top: 2px solid #a8d0e6;
 }
 
@@ -152,6 +152,7 @@ body{
     border-radius: 3px;
     width: 30%;
     flex-flow: column wrap;
+    padding-right: 8px;
 }
 
 .item__4 .icons__servicos{
@@ -191,6 +192,7 @@ body{
     margin-top: 80px;
     margin-bottom: 11px;
     box-sizing: border-box;
+    padding: 8px;
 }
 
 .button__servicos{
