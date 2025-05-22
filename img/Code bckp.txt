@@ -1,0 +1,11 @@
+    <header class="header__homepage">
+        <div class="img__logo">
+            <img src="img/logo-3.jpeg" alt="logo">
+        </div>
+        <h3 class="h3__header">
+            Excelência e sofisticação em cada detalhe.
+        </h3>
+    </header>
+    <section class="button__home">
+        
+    </section> 
