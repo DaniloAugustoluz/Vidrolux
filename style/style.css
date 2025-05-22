@@ -232,31 +232,19 @@ body{
     margin-left: 2px;   
 }
 
-.button_item1 button{
+.button_item1 button a{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
     font-size: 13px;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
-.button_item2 img{
-    width: 80%;
-    height: 250px;
-}
 
-.button_item2{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-}
-.button_item2 img{
-    width: 100%;
-    border-radius: 4px;
-}
+
+
 
 
 .info__3 h1{
