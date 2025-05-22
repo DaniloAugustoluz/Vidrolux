@@ -361,7 +361,7 @@ body {
 
 .button__pagIndex button{
     width: 90%;
-    height: 38px;
+    height: auto;
     margin-right: 8px;
     text-align: center;
 }
