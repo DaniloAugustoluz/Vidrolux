@@ -401,6 +401,8 @@ body {
     display: flex;
     padding: 32px;
     margin: 5px;
+    box-shadow: -1px 1px 3px rgba(245, 222, 179, 0.642);
+    z-index: 900;
 }
 
 .card h3{
@@ -408,7 +410,7 @@ body {
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 8pt;  
+    font-size: 7pt;  
     margin-top: 4px;
 }
 
