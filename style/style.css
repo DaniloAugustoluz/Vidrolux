@@ -389,20 +389,40 @@ body {
 
 /*      Página Serviços   */
 .servicos__card{
+    box-sizing: border-box;
     display: flex;
-    width: 100%;
-    height: 400px;
     flex-flow: row wrap;
-    background-color: #dce3e6;
-    justify-content: space-evenly;
-    row-gap: 12px;
-    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .card{
+    width: 130px;
     display: flex;
     padding: 32px;
+    margin: 5px;
 }
 
+.card h3{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    font-size: 8pt;  
+    margin-top: 4px;
+}
+
+.card p{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    font-size: 7pt;  
+    margin-top: 4px;
+}
+.card img{
+    width: 50%;
+}
 
 
 /*      Página Institucional   */
