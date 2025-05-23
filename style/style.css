@@ -388,6 +388,18 @@ body {
 
 
 /*      Página Serviços   */
+.container__main__servicos{
+    display: flex;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    row-gap: 20px;
+}
+
+
 .servicos__card{
     box-sizing: border-box;
     display: flex;
@@ -396,10 +408,44 @@ body {
     justify-content: center;
     align-items: center;
 }
-.card{
-    width: 127px;
+
+.info__servicos{
+    width: 100%;
+    height: auto;
+    padding: 10px;
     display: flex;
-    padding: 32px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid #a8d0e6;
+
+}
+
+.info__servicos h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    font-size: 20pt;
+    text-align: end;
+    color: black;
+    margin-bottom: 10px;   
+}
+
+.info__servicos p{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    font-size: 10pt;
+    color: black;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    padding: 16px;
     margin: 5px;
     box-shadow: -1px 1px 3px rgba(245, 222, 179, 0.642);
     z-index: 900;
@@ -425,6 +471,15 @@ body {
 .card img{
     width: 50%;
 }
+
+
+.componente__servicos{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #374785;
+}
+
 
 
 /*      Página Institucional   */
