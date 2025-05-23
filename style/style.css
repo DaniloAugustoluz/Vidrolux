@@ -445,6 +445,9 @@ body {
 .card{
     width: 100px;
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: space-around;
     padding: 16px;
     margin: 5px;
     box-shadow: -1px 1px 3px rgba(245, 222, 179, 0.642);
@@ -472,6 +475,24 @@ body {
     width: 50%;
 }
 
+.card p span {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    margin-top: 4px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: -1px 0px 3px darkgray;
+    cursor: pointer;
+}
+
+.card p span a{
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    font-size: 7pt;  
+}
 
 .componente__servicos{
     display: flex;
