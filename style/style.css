@@ -524,11 +524,35 @@ body {
 
 .componente__servicos{
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: auto;
-    background-color: #374785;
 }
 
+.componente__servicos .alert{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    padding: 5px;
+    color: black;
+}
+
+.componente__servicos h3{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 9pt;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    background-color: #374785;
+    color: whitesmoke;
+    text-shadow: -1px 0px 1px black;
+    border-radius: 4px;
+}
 
 
 /*      Página Institucional   */
