@@ -578,16 +578,26 @@ body {
     position: fixed;
     z-index: 999;
     box-sizing: border-box;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal__content{
-    width: 100%;
-    background-color: #a8d0e6;
+    width: 80%;
+    height: 50%;
+    background-color: cornflowerblue;
     padding: 5px;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 
 
