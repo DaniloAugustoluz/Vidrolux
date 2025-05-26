@@ -112,6 +112,7 @@ body {
 .item__3 {
     background-color: #374785;
     width: 70%;
+    height: auto;
     flex-flow: column wrap;
     border-radius: 3px;
 }
