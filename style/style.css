@@ -91,7 +91,7 @@ body {
 .item__2 img {
     width: 160px;
     height: 160px;
-    border-top: 2px solid #a8d0e6;
+    border-top: 1px solid #a8d0e6;
 }
 
 
@@ -110,11 +110,11 @@ body {
 }
 
 .item__3 {
-    background-color: #374785;
-    width: 70%;
+    background-color: rgba(249, 249, 249, 0.859);    width: 70%;
     height: auto;
     flex-flow: column wrap;
     border-radius: 3px;
+    box-shadow: -1px 0px 2px darkgray;
 }
 
 .item__3 .title__item3 {
@@ -124,19 +124,17 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     padding: 10px;
-    color: #fff;
-    text-shadow: -1px 1px 1px black;
+    color: black;
 }
 
 .item__3 .infoservicos {
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-optical-sizing: auto;
     text-transform: uppercase;
     font-size: 13px;
     padding: 10px;
-    color: #fff;
-    text-shadow: -1px 1px 1px black;
+    color: black;
 }
 
 
@@ -153,10 +151,12 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-    border-radius: 3px;
     width: 30%;
     flex-flow: column wrap;
     padding-right: 8px;
+    border-bottom: 1.5px solid black;
+    border-top: 1px solid black;
+    box-shadow: 0px -1px 3px rgba(14, 14, 14, 0.111);
 }
 
 .item__4 .icons__servicos {
@@ -201,22 +201,34 @@ body {
 .button__servicos {
     display: flex;
     width: 100%;
-    height: 230px;
+    height: 200px;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px;
     background-color: #fff;
-    border-top: 1px solid black;
-    margin-top: 15px;
+}
+
+.button__homepage{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button__homepage .btn{
+    height: 36px;
+    width: 50%;
 }
 
 .button_item1 {
     width: 100%;
     display: flex;
     flex-flow: column wrap;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
+
 
 .button_item1 h2 {
     font-family: "Space Grotesk", sans-serif;
@@ -233,7 +245,7 @@ body {
     font-optical-sizing: auto;
     text-transform: uppercase;
     font-size: 10px;
-    margin-left: 2px;
+    margin-left: 4px;
 }
 
 .button_item1 button a {
@@ -250,7 +262,8 @@ body {
     border: none;
     margin: 5px;
     border-radius: 4px;
-    height: 34px;
+    height: 38px;
+    width: 50%;
 }
 .button_item1 .whatsapp__Button a{
     font-family: "Space Grotesk", sans-serif;
@@ -540,6 +553,14 @@ body {
     justify-content: center;
     align-items: center;
     width: 90%;
+    border-radius: 9px;
+}
+.info__whatsapp{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
 }
 
 .componente__servicos .alert{
@@ -560,10 +581,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     padding: 10px;
-    background-color: #374785;
     color: whitesmoke;
     text-shadow: -1px 0px 1px black;
-    border-radius: 4px;
 }
 
 
@@ -586,15 +605,16 @@ body {
 .modal__content{
     width: 80%;
     height: 50%;
-    background-color: cornflowerblue;
+    background-color: whitesmoke;
     padding: 5px;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.8);
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    box-shadow: -1px 1px 25px black;
 }
 
 .modal__content h2{
@@ -605,6 +625,7 @@ body {
     text-transform: uppercase;
     text-align: end;
     padding: 5px;
+    color: black;
 }
 
 .modal__content p{
@@ -615,6 +636,7 @@ body {
     text-transform: uppercase;
     text-align: start;
     padding: 5px;
+    color: black;
 }
 
 
