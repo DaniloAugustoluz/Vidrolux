@@ -24,49 +24,71 @@
         </section>
 
         <section class="servicos__card">
-            <div class="card">
-                <img src="img/Box Elegance2.png" alt="">
-                <h3>BOX ELEGANCE</h3>
-                <p>Nossos modelos são feitos sob medida, com acabamentos modernos que valorizam o ambiente e garantem durabilidade no uso diário.
-                    <span class="badge rounded-pill bg-primary"><a id="openModal" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
-            </div>
-            
-            <div id="modal" class="modal">
-                <div class="modal__content">
-                    <h2>Exemplo serviço</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, facere ipsum, obcaecati qui animi sed sapiente voluptatem eligendi nihil et, sunt consequuntur <br>doloribus aliquam corrupti magni perferendis eaque. Harum, molestiae.</p>
-                    <span id="closeModal">X</span>
+            <div class="info__escolherservico">
+                <h3>Qual tipo de projeto você precisa?</h3>
+                <p>Oferecemos soluções sob medida para residências, com foco em conforto, estética e segurança, além de projetos comerciais pensados para valorizar seu negócio com sofisticação e eficiência. Escolha abaixo o tipo de serviço ideal para o seu ambiente.</p>
+                <div class="buttons__escolherservico">
+                     <button id="residencial" type="button" class="btn btn-primary">Residêncial</button>
+                     <button id="comercial" type="button" class="btn btn-secondary">Comercial</button>
                 </div>
-            </div>
-    
-            <div class="card">
-                <img src="img/Cobertura de vidro retratil.png" alt="">
-                <h3>COBERTURA RETRATIL</h3>
-                <p>Proteção contra o tempo sem abrir mão da luz. As coberturas em vidro são ideais para áreas gourmet, varandas e corredores, com estrutura leve e resistente.
-                    <span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
-            </div>
-            <div class="card">
-                <img src="img/Janelas de vidro.png" alt="">
-                <h3>JANELAS DE VIDRO</h3>
-                <p>Conforto, ventilação e segurança com janelas de vidro e sistema maxim-ar. São perfeitas para cozinhas, banheiros e ambientes comerciais.
-                    <span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
-            </div>
-            <div class="card">
-                <img src="img/Envidraçamento de Sacada.png" alt="">
-                <h3>Envidraçamento de Sacada</h3>
-                <p>Conforto e proteção sem perder a vista. O envidraçamento de sacadas melhora o isolamento térmico e acústico, com abertura total ou parcial.<span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
-            </div>
-            <div class="card">
-                <img src="img/Guarda-Corpo.png" alt="">
-                <h3>GUARDA-CORPO</h3>
-                <p>Utilizamos vidros temperados e laminados que garantem proteção sem comprometer a estética.
-                    <span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
-            </div>
-            <div class="card">
-                <img src="img/Esquadrias de Alumínio.png" alt="">
-                <h3>ESQUADRIAS DE ALUMÍNIO</h3>
-                <p>Proteja áreas externas com sistemas de vidro e alumínio que combinam resistência e design. Perfeitos para lavanderias, corredores ou áreas gourmet.
-                    <span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
+
+                <div class="container__card">
+                        <div id="card__residencial" class="card__residencial">
+                            <div class="card">
+                                <img src="img/Box Elegance2.png" alt="">
+                                <h3>BOX ELEGANCE</h3>
+                                <p>Nossos modelos são feitos sob medida, com acabamentos modernos que valorizam o ambiente e garantem durabilidade no uso diário.<br>
+                                <span class="badge rounded-pill bg-primary"><a id="openModal" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
+                            </div>
+                            <div id="modal" class="modal">
+                            <div class="modal__content">
+                                <h2>Exemplo serviço</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, facere ipsum, obcaecati qui animi sed sapiente voluptatem eligendi nihil et, sunt consequuntur <br>doloribus aliquam corrupti magni perferendis eaque. Harum, molestiae.</p>
+                                <span id="closeModal">X</span>
+                                </div>
+                            </div>
+                            
+
+                            <div class="card">
+                                <img src="img/Cobertura de vidro retratil.png" alt="">
+                                <h3>COBERTURA RETRATIL</h3>
+                                <p>Proteção contra o tempo sem abrir mão da luz. As coberturas em vidro são ideais para áreas gourmet, varandas e corredores, com estrutura leve e resistente.<br>
+                                <span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
+                            </div>
+
+                            <div class="card">
+                                <img src="img/Guarda-Corpo.png" alt="">
+                                <h3>GUARDA-CORPO</h3>
+                                <p>Utilizamos vidros temperados e laminados que garantem proteção sem comprometer a estética.<br>
+                                <span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
+                            </div>
+                        </div>
+
+
+                        <div id="card__comercial" class="card__comercial">
+                            <div class="card">
+                                <img src="img/Janelas de vidro.png" alt="">
+                                <h3>JANELAS DE VIDRO</h3>
+                                <p>Conforto, ventilação e segurança com janelas de vidro e sistema maxim-ar. São perfeitas para cozinhas, banheiros e ambientes comerciais.<br>
+                                <span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
+                            </div>
+                            <div class="card">
+                                <img src="img/Envidraçamento de Sacada.png" alt="">
+                                <h3>Envidraçamento de Sacada</h3>
+                                <p>Conforto e proteção sem perder a vista. O envidraçamento de sacadas melhora o isolamento térmico e acústico, com abertura total ou parcial.<span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
+                            </div>
+
+                            <div class="card">
+                                <img src="img/Esquadrias de Alumínio.png" alt="">
+                                <h3>ESQUADRIAS DE ALUMÍNIO</h3>
+                                <p>Proteja áreas externas com sistemas de vidro e alumínio que combinam resistência e design. Perfeitos para lavanderias, corredores ou áreas gourmet.
+                                <span class="badge rounded-pill bg-primary"><a href="#" class="badge rounded-pill bg-primary">Saiba mais</a></span></p>
+                            </div>
+                        </div>
+                </div>
+                
+
+
             </div>
         </section>
 
