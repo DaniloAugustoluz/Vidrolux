@@ -586,7 +586,7 @@ body {
 
 
 .card{
-    width: 160px;
+    width: 150px;
     height: auto;
     display: flex;
     flex-flow: column nowrap;
