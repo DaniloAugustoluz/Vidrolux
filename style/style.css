@@ -360,19 +360,20 @@ body {
 .texto__introducao{
     display: flex;
     width: 100%;
-    height: 200px;
+    height: 300px;
     flex-flow: column nowrap;
     padding: 12px;
     justify-content: flex-end;
     align-content: center;
     margin-bottom: 20px;
+    padding: 12px;
 }
 .texto__introducao h1{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 30pt;  
+    font-size: 28pt;  
     text-align: center;  
 }
 
@@ -381,7 +382,7 @@ body {
     font-weight: 400;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 10pt;   
+    font-size: 11pt;   
     margin-top: 20px; 
 }
 
@@ -404,7 +405,7 @@ body {
 }
 
 .button__pagIndex button{
-    width: 80%;
+    width: 100%;
     height: auto;
     margin-right: 8px;
     text-align: center;
@@ -415,7 +416,7 @@ body {
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 15pt;  
+    font-size: 14pt;  
     color: black;
 }
  .button__pagIndex img {
@@ -576,7 +577,7 @@ body {
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 8pt;
     color: whitesmoke;
     text-shadow: 0px 1px 2px black;
     box-shadow: -1px 1px 2px darkgray;
@@ -698,18 +699,19 @@ body {
 }
 
 .modal__content{
-    width: 80%;
-    height: 50%;
+    width: 90%;
+    height: auto;
     background-color: whitesmoke;
-    padding: 5px;
+    padding: 15px;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.8);
     display: flex;
     flex-flow: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     box-shadow: -1px 1px 25px black;
+    box-sizing: border-box;
 }
 
 .modal__content h2{
@@ -718,9 +720,9 @@ body {
     font-size: 20px;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    text-align: end;
     padding: 5px;
     color: black;
+    border-bottom: 1px solid darkgray;
 }
 
 .modal__content p{
@@ -733,6 +735,38 @@ body {
     padding: 5px;
     color: black;
 }
+
+.item__box1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.item__box1 img{
+    width: 250px;
+    height: 250px;
+}
+ .item__box1 p{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    font-optical-sizing: auto;      
+    text-transform: uppercase;
+ }
+
+
+
+
+
+
+
+
+
 
 
 
