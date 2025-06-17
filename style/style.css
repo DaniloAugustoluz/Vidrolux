@@ -21,32 +21,45 @@ body {
 }
 
 .menu__index {
-    height: 60px;
+    height: 90px;
     width: 100%;
     border-radius: 4px;
-    flex-flow: column wrap;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 8px;
+}
+
+.logo__home{
+    width: 30%;
+    height: 80%;
+    display: flex;
+}
+.logo__home img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
 }
 
 .buttons {
-    width: 100%;
-    height: 80%;
+    width: 70%;
+    height: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
-    align-content: flex-end;
+    justify-content: center;
+    align-content: center;
 }
 
 .buttons a {
     font-size: 9pt;
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-optical-sizing: auto;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
     text-align: center;
-    border-bottom: 3px solid #a8d0e6;
     border-radius: 1px;
 }
 
@@ -55,6 +68,9 @@ body {
     height: auto;
     display: flex;
     flex-flow: row nowrap;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 5px;
 }
 
 
@@ -75,24 +91,12 @@ body {
     font-weight: 300;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
     padding-left: 6px;
 }
 
-.item__2 .logo {
-    width: 100%;
-    height: 180px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
 
-.item__2 img {
-    width: 160px;
-    height: 160px;
-    border-top: 1px solid #a8d0e6;
-}
+
 
 
 
@@ -106,16 +110,15 @@ body {
     height: 300px;
     display: flex;
     flex-flow: row nowrap;
-    margin-bottom: 3px;
+    padding: 10px;
 }
 
 .item__3 {
-    background-color: rgba(249, 249, 249, 0.859);    
+    background-color: #a8d0e66a;
     width: 70%;
     height: auto;
     flex-flow: column wrap;
     border-radius: 3px;
-    box-shadow: -1px 0px 2px darkgray;
 }
 
 .item__3 .title__item3 {
@@ -123,9 +126,10 @@ body {
     font-weight: 400;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px;
-    color: black;
+    color: whitesmoke;
+    background-color: black;
 }
 
 .item__3 .infoservicos {
@@ -154,10 +158,8 @@ body {
     justify-content: space-around;
     width: 30%;
     flex-flow: column wrap;
-    padding-right: 8px;
-    border-bottom: 1.5px solid black;
-    border-top: 1px solid black;
-    box-shadow: 0px -1px 3px rgba(14, 14, 14, 0.111);
+    padding: 2px;
+    border-left: 2px solid black;      
 }
 
 .item__4 .icons__servicos {
@@ -169,7 +171,7 @@ body {
 
 .item__4 .icons__servicos h4 {
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     font-optical-sizing: auto;
     text-transform: uppercase;
     font-size: 10px;
@@ -178,8 +180,8 @@ body {
 }
 
 .item__4 .icons__servicos img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -194,9 +196,9 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-content: center;
-    margin-top: 40px;
+    margin-top: 30px;
     box-sizing: border-box;
-    padding: 8px;
+    padding: 12px;
 }
 
 .button__servicos {
@@ -213,14 +215,14 @@ body {
 .button__homepage{
     width: 100%;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
 }
 
 .button__homepage .btn a{
     height: 36px;
-    width: 50%;
+    width: 100%;
     font-size: 10px;
 }
 
@@ -242,16 +244,8 @@ body {
     margin-left: 5px;
 }
 
-.button_item1 .p__button {
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 300;
-    font-optical-sizing: auto;
-    text-transform: uppercase;
-    font-size: 10px;
-    margin-left: 4px;
-}
 
-.button_item1 button a {
+.button__homepage button a {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
     font-optical-sizing: auto;
@@ -260,7 +254,7 @@ body {
     text-decoration: none;
     color: whitesmoke;
 }
-.button_item1 .whatsapp__Button{
+.button__homepage .whatsapp__Button{
     background-color: #25D366;
     border: none;
     margin: 5px;
