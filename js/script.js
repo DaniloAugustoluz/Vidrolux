@@ -31,3 +31,11 @@ openCardComercial.addEventListener("click", () => {
     cardResidencial.style.display = "none";
     cardComercial.style.display = "flex";
 });
+
+/*  REDIRECT HOMEPAGE    */
+function RedirectHomePage(){
+    window.location.href = "Servicos.html";
+}
+function WhatsAppRedirect(){
+    window.location.href = "https://api.whatsapp.com/send?phone=5511986280730";
+}

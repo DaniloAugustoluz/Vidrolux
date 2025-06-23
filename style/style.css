@@ -114,7 +114,6 @@ body {
 }
 
 .item__3 {
-    background-color: #a8d0e66a;
     width: 70%;
     height: auto;
     flex-flow: column wrap;
@@ -159,7 +158,7 @@ body {
     width: 30%;
     flex-flow: column wrap;
     padding: 2px;
-    border-left: 2px solid black;      
+    border-left: 1px solid black;      
 }
 
 .item__4 .icons__servicos {
@@ -220,10 +219,37 @@ body {
     align-items: center;
 }
 
-.button__homepage .btn a{
-    height: 36px;
+.button__homepage .button__exp__vidrolux{
     width: 100%;
-    font-size: 10px;
+    height: 34px;
+    margin: 3px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: black;
+    color: whitesmoke;
+    z-index: 999;
+    box-shadow: 1px 1px 2px black;
+}
+
+.button__homepage .button__whatsapp{
+    width: 100%;
+    height: 34px;
+    margin: 3px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #25D366;
+    z-index: 999;
+    box-shadow: 1px 1px 2px black;
 }
 
 
@@ -449,6 +475,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px 10px;
+    border-bottom: 1px solid darkgray;
 }
 
 .info__servicos{
@@ -460,8 +487,8 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 10px;
-    margin-top: 15px;
-
+    margin-top: 12px;
+    padding: 15px;
 
 }
 
@@ -470,7 +497,7 @@ body {
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 20pt;
+    font-size: 18pt;
     text-align: start;
     color: black;
     margin-bottom: 15px;   
@@ -491,10 +518,10 @@ body {
 
 .info__servicos p{
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 11pt;
     color: black;
 }
 
@@ -512,7 +539,7 @@ body {
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 20pt;
+    font-size: 18pt;
     text-align: start;
     color: black;
     padding-left: 5px;
@@ -523,7 +550,7 @@ body {
     font-weight: 300;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 11pt;
     text-align: start;
     color: black;
     padding-left: 7px;
@@ -534,9 +561,10 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-content: center;
+    margin-top: 10px;
 }
 
 
@@ -544,7 +572,7 @@ body {
     width: 100%;
     height: auto;
     display: none;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: flex-start;
     margin-left: 10px;
 
@@ -555,7 +583,7 @@ body {
     width: 100%;
     height: auto;
     display: none;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: flex-start;
     margin-left: 10px;
 }
@@ -588,10 +616,10 @@ body {
 
 
 .card{
-    width: 140px;
+    width: 90%;
     height: auto;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-content: space-around;
     padding: 16px;
@@ -605,7 +633,7 @@ body {
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 7pt;  
+    font-size: 10pt;  
     margin-top: 4px;
 }
 
@@ -614,19 +642,20 @@ body {
     font-weight: 300;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 8px;  
+    font-size: 11px;
     margin-top: 4px;
 }
+
 .card img{
-    width: 50%;
+    width: 20%;
 }
 
-.card p span {
+.card p span{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 300;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    margin-top: 4px;
+    margin-top: 6px;
     text-decoration: none;
     text-align: center;
     box-shadow: -1px 0px 3px darkgray;
@@ -637,7 +666,7 @@ body {
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 3px black;
-    font-size: 7px;  
+    font-size: 11px;  
 }
 
 .componente__servicos{
@@ -647,20 +676,22 @@ body {
     align-items: center;
     width: 90%;
     border-radius: 9px;
+    margin: 15px;
 }
+
 .info__whatsapp{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-content: center;
     border-radius: 5px;
-    background-color: rgb(247, 236, 236); 
+    margin: 10px;
 }
 
 .componente__servicos .alert{
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 400;
-    font-size: 10pt;
+    font-weight: 500;
+    font-size: 15pt;
     font-optical-sizing: auto;
     text-transform: uppercase;
     padding: 5px;
@@ -669,12 +700,12 @@ body {
 
 .componente__servicos h3{
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 500;
-    font-size: 9pt;
+    font-weight: 300;
+    font-size: 12pt;
     font-optical-sizing: auto;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
     color: black;
 }
 
