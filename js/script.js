@@ -1,5 +1,4 @@
 /* Modal página de serviços */
-
 const modal = document.getElementById("modal");
 const openButton = document.getElementById("openModal");
 const closeModal = document.getElementById("closeModal");
@@ -38,4 +37,10 @@ function RedirectHomePage(){
 }
 function WhatsAppRedirect(){
     window.location.href = "https://api.whatsapp.com/send?phone=5511986280730";
+}
+
+
+/*    REDIRECT INSTAGRAM */
+function RedirectInstagram(){
+    window.location.href = "https://www.instagram.com/vidroluxsp/";
 }
