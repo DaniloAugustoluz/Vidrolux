@@ -44,3 +44,30 @@ function WhatsAppRedirect(){
 function RedirectInstagram(){
     window.location.href = "https://www.instagram.com/vidroluxsp/";
 }
+
+
+/*  CARROUSSELL  SERVIÇOS */
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll('.carrossel-slide');
+  const btnNext = document.getElementById('nextBtn');
+  const btnPrev = document.getElementById('prevBtn');
+  let slideAtual = 0;
+
+  function mostrarSlide(index) {
+    slides.forEach(slide => slide.classList.remove('ativo'));
+    slides[index].classList.add('ativo');
+  }
+
+  btnNext.addEventListener('click', () => {
+    slideAtual = (slideAtual + 1) % slides.length;
+    mostrarSlide(slideAtual);
+  });
+
+  btnPrev.addEventListener('click', () => {
+    slideAtual = (slideAtual - 1 + slides.length) % slides.length;
+    mostrarSlide(slideAtual);
+  });
+
+  mostrarSlide(slideAtual);
+
+});

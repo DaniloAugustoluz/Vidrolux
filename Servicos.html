@@ -47,26 +47,41 @@
                             <div id="modal" class="modal">
                             <div class="modal__content">
                                 <h2>BOX DE VIDRO</h2>
-                                <section class="carrossel__container">
-                                    <div id="carrossel" class="carrossel">
-                                        <div class="slide__ativo">
-
-                                        </div>
-
-                                        <div class="slide">
-                                            <h3>Box Elegance</h3>
-                                            <img src="" alt="box-elegance" srcset="">
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, facere ipsum, obcaecati qui animi sed sapiente voluptatem eligendi nihil et, sunt consequuntur <br>doloribus aliquam corrupti magni perferendis eaque. Harum, molestiae.</p>
-                                        </div>
-
-                                        <div class="slide">
-                                            <h3>BOX FLEX CROMADO</h3>
-                                            <img src="" alt="box-elegance" srcset="">
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, facere ipsum, obcaecati qui animi sed sapiente voluptatem eligendi nihil et, sunt consequuntur <br>doloribus aliquam corrupti magni perferendis eaque. Harum, molestiae.</p>
-                                        </div>
+                               <div class="carrossel-container">
+                                  <div class="carrossel-slide ativo">
+                                    <img src="img/img-boxelegance-1.jpeg" alt="Serviço 1">
+                                        <h2>Box Elegance</h2>
+                                        <p class="texto-scroll">O Box Elegance é fabricado com vidro temperado de <strong>8mm</strong> ou <strong>10mm</strong>, garantindo alta resistência mecânica e térmica. 
+                                            <br><br>Conta com sistema de perfis de alumínio ou inox de baixo perfil, proporcionando acabamento discreto e moderno. As roldanas de alta performance asseguram deslizamento suave, com opções de instalação nos modelos de correr ou abrir.
+                                            O produto oferece excelente vedação, resistência à umidade e fácil manutenção.<br> 
+                                            Ideal para projetos que exigem padrão elevado de acabamento, durabilidade e segurança em ambientes residenciais ou comerciais.
+                                            Disponível em diversas cores de perfis e possibilidade de personalização conforme medidas específicas do cliente.</p>
+                                        <button>Solicite seu orçamento</button>
                                     </div>
-                                </section>                                
-                                <span id="closeModal">X</span>
+
+                                    <div class="carrossel-slide">
+                                        <img src="img/img-boxdecanto1.jpeg" alt="Serviço 2">
+                                        <h2>Box de Canto</h2>
+                                        <p class="texto-scroll">O Box de Canto é desenvolvido para banheiros com layout em ângulo, oferecendo aproveitamento máximo do espaço com acabamento moderno e funcional. Produzido com vidro temperado de <strong>8mm</strong> ou <strong>10mm</strong>, esse modelo garante alta resistência mecânica, segurança e durabilidade.<br>
+                                        <br>A estrutura conta com perfis em alumínio ou inox, com acabamento resistente à corrosão, disponível em diversas cores e estilos. O sistema de portas pode ser configurado conforme a necessidade do ambiente, com opções de correr ou abrir, proporcionando maior flexibilidade de uso.</p>
+                                        <button>Solicite seu orçamento</button>
+                                    </div>
+
+                                    <div class="carrossel-slide">
+                                        <img src="img/img-boxarticulado1.jpeg" alt="Serviço 3">
+                                        <h2>Box Articulado</h2>
+                                        <p class="texto-scroll">O Box Articulado, também conhecido como box sanfonado ou dobrável, é uma solução prática e funcional para banheiros que necessitam de melhor mobilidade e aproveitamento de espaço. Fabricado com vidro temperado de <strong>8mm</strong>, esse modelo oferece alta resistência, segurança e facilidade de uso.<br>
+                                           <br>Sua estrutura conta com perfis em alumínio ou inox de alta durabilidade, com acabamento anticorrosivo e design discreto. O sistema articulado permite que as folhas se recolham lateralmente, liberando maior área de passagem, sendo ideal para banheiros compactos, ambientes adaptados ou com necessidades especiais de acesso.</p>
+                                        <button>Solicite seu orçamento</button>
+                                    </div>
+
+                                <!-- Botões de navegação -->
+                                <button class="carrossel-btn" id="prevBtn">⟵</button>
+                                <button class="carrossel-btn" id="nextBtn">⟶</button>
+
+                                </div>
+
+                                <span id="closeModal" class="closeModal">X</span>
                                 </div>
                             </div>
                             
@@ -136,6 +151,6 @@
             <p>Alpha Solution  &reg; </p>  
         </footer>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </body>
 </html>
