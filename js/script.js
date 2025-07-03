@@ -47,7 +47,7 @@ function RedirectInstagram(){
 
 
 /*  CARROUSSELL  SERVIÇOS */
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function abrirmodal () {
   const slides = document.querySelectorAll('.carrossel-slide');
   const btnNext = document.getElementById('nextBtn');
   const btnPrev = document.getElementById('prevBtn');

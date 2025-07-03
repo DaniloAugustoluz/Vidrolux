@@ -426,9 +426,22 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    row-gap: 15px;
+    row-gap: 10px;
 }
 
+.ilustracao__servicos{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ilustracao__servicos img{
+    width: 100%;
+    height: 80%;
+}
 
 .servicos__card{
     box-sizing: border-box;
@@ -449,10 +462,8 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding: 15px;
-    border-top: 1px solid darkgray;
-
+    padding: 20px 10px 0px;
+    margin-top: 10px;
 }
 
 .info__servicos h2{
@@ -461,13 +472,14 @@ body {
     font-optical-sizing: auto;
     text-transform: uppercase;
     font-size: 18pt;
-    text-align: start;
+    text-align: center;
     color: black;
-    margin-bottom: 15px;   
+    margin-bottom: 15px;
+    padding: 0px 20px 0px;  
 }
 
 .info__servicos .medida__span{
-        font-family: "Space Grotesk", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
     font-optical-sizing: auto;
     text-transform: uppercase;
@@ -486,6 +498,8 @@ body {
     text-transform: uppercase;
     font-size: 11pt;
     color: black;
+    padding: 0px 20px 0px;
+    text-align: center;
 }
 
 .info__escolherservico{
@@ -493,7 +507,7 @@ body {
     flex-flow: column nowrap;
     width: 100%;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -503,7 +517,7 @@ body {
     font-optical-sizing: auto;
     text-transform: uppercase;
     font-size: 18pt;
-    text-align: start;
+    text-align: center;
     color: black;
     padding-left: 5px;
 }
@@ -513,8 +527,8 @@ body {
     font-weight: 300;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 11pt;
-    text-align: start;
+    font-size: 10pt;
+    text-align: center;
     color: black;
     padding-left: 7px;
 }
@@ -557,6 +571,7 @@ body {
     display: flex;
     width: 100%;
     padding: 10px;
+    margin: 0px 0px 10px;
 }
 
 .buttons__escolherservico button{
@@ -583,10 +598,10 @@ body {
     width: 90%;
     height: auto;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
-    align-content: space-around;
-    padding: 16px;
+    align-items: center;
+    padding: 15px;
     margin: 5px;
     box-shadow: -1px 1px 3px rgba(245, 222, 179, 0.642);
     z-index: 900;
@@ -624,6 +639,7 @@ body {
     text-align: center;
     box-shadow: -1px 0px 3px darkgray;
     cursor: pointer;
+    background-color: #101728;
 }
 
 .card p span a{
@@ -640,7 +656,7 @@ body {
     align-items: center;
     width: 90%;
     border-radius: 9px;
-    margin: 15px;
+    margin: 8px 5px 12px;
 }
 
 .info__whatsapp{
@@ -655,10 +671,9 @@ body {
 .componente__servicos .alert{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
-    font-size: 15pt;
+    font-size: 16pt;
     font-optical-sizing: auto;
     text-transform: uppercase;
-    padding: 5px;
     color: black;
 }
 
@@ -669,7 +684,6 @@ body {
     font-optical-sizing: auto;
     text-transform: uppercase;
     text-align: center;
-    padding: 3px;
     color: black;
 }
 
@@ -677,7 +691,7 @@ body {
 .modal{
     display: none;
     width: 100%;
-    height: 100%;
+    height: 90%;
     overflow: auto;
     top: 50%;
     left: 50%;
@@ -691,8 +705,8 @@ body {
 }
 
 .modal__content{
-    width: 95%;
-    height: auto;
+    width: 90%;
+    height: 98%;
     margin: 10px;
     background-color: whitesmoke;
     padding: 15px;
@@ -709,12 +723,12 @@ body {
 
 .modal__content h2{
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     font-optical-sizing: auto;
     text-transform: uppercase;
     color: black;
-    border-bottom: 1px solid darkgray;
+  
     text-align: end;
 }
 
@@ -765,7 +779,7 @@ body {
   padding: 1rem;
   text-align: center;
   max-width: 350px;
-  margin: auto;
+  margin: 5px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -775,31 +789,35 @@ body {
   flex-direction: column;
   align-items: center;
   height: auto;
-  width: 90%;
+  width: 100%;
+  padding: 10px;
 }
 
 .carrossel-slide img {
   width: 70%;
-  height: auto;
+  height: 270px;
   border-radius: 6px;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
 }
 
 .carrossel-slide h2 {
   font-size: 1.2rem;
   margin: 0.5rem 0;
   color: #333;
+  font-weight: 800;
 }
 
 .carrossel-slide .texto-scroll {
   max-height: 95px;  /* Ajuste a altura conforme o layout do slide */
   overflow-y: auto;
-  padding: 0.8rem;
+  padding: 5px;
+  border-radius: 4px;
   text-align: justify;
   font-size: 8pt;
   font-weight: 300;
   width: 100%;
-  border-bottom: 1px solid rgba(211, 208, 208, 0.518);
+  border-bottom: 2px solid rgba(211, 208, 208, 0.518);
+
 }
 
 .carrossel-slide button {
@@ -815,6 +833,7 @@ body {
   font-optical-sizing: auto;
   text-transform: uppercase;
   font-size: 15px;
+  text-shadow: 1px 1px 1px black;
 }
 
 .carrossel-slide.ativo {
