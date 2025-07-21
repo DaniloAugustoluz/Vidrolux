@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/servicos.css">
+    <title>Serviços</title>
+</head>
+<body>
+        <header class="menu__index">
+            <nav class="buttons">
+                <a href="Home.html">Inicio</a>
+                <a href="Servicos.html">Serviços</a>
+                <a href="Institucional.html">Institucional</a>
+            </nav>
+            
+            <div class="logo__home">
+                <img src="img/logo-novo.png" width="80px" alt="" srcset="">
+            </div>
+        </header>
+
+        <section class="categoria-servico">
+            <h2 class="titulo-categoria">Box de Vidro</h2>
+            <div class="grid-cards">
+                <!-- Card 1 -->
+                <div class="card-servico" onclick="abrirModal('modal-correr')">
+                <img src="imagens/box-correr.jpg" alt="Box de Correr">
+                <h3>Box de Correr</h3>
+                <button class="btn-detalhes">Ver Detalhes</button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card-servico" onclick="abrirModal('modal-abrir')">
+                <img src="imagens/box-abrir.jpg" alt="Box de Abrir">
+                <h3>Box de Abrir</h3>
+                <button class="btn-detalhes">Ver Detalhes</button>
+                </div>
+
+                <!-- Adicione os outros cards aqui... -->
+            </div>
+            </section>
+
+            <!-- Modal -->
+            <div id="modal-correr" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar" onclick="fecharModal('modal-correr')">&times;</span>
+                <h2>Box de Correr</h2>
+                <p>Sistema deslizante que otimiza o espaço, ideal para banheiros compactos. É elegante, funcional e fácil de limpar.</p>
+                <button class="btn-orcamento">Solicitar Orçamento</button>
+            </div>
+            </div>
+
+            <div id="modal-abrir" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar" onclick="fecharModal('modal-abrir')">&times;</span>
+                <h2>Box de Abrir</h2>
+                <p>Modelo clássico com abertura lateral, excelente vedacão e acabamento refinado.</p>
+                <button class="btn-orcamento">Solicitar Orçamento</button>
+            </div>
+            </div>
+
+            <script>
+                function abrirModal(id) {
+                    document.getElementById(id).style.display = 'block';
+                }
+
+                function fecharModal(id) {
+                    document.getElementById(id).style.display = 'none';
+                }
+            </script>
+    
+</body>
+</html>
